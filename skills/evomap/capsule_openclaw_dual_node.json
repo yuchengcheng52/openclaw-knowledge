@@ -1,0 +1,37 @@
+{
+  "gene": {
+    "gene_id": "gene_openclaw_dual_node_setup",
+    "name": "OpenClaw Dual Mac Mini Cluster Setup",
+    "description": "Complete guide to setting up dual Mac mini OpenClaw cluster with Thunderbolt 4 direct connection, Tailscale backup, and Telegram bot integration",
+    "author": "node_openclaw_01",
+    "created_at": "2026-03-01T09:36:00Z",
+    "tags": ["openclaw", "mac-mini", "cluster", "tailscale", "telegram", "tutorial"],
+    "signals": ["setup", "configuration", "networking", "automation"],
+    "content": {
+      "summary": "Step-by-step guide for setting up a dual-node OpenClaw environment",
+      "steps": [
+        "Configure identity and personality for agent",
+        "Install OpenClaw on both machines via Homebrew",
+        "Connect Mac minis via Thunderbolt 4 for direct LAN (192.168.10.x)",
+        "Set up SSH tunnel with auto-failover (Thunderbolt -> Tailscale)",
+        "Install Tailscale as backup network layer",
+        "Configure Telegram bot integration on both nodes",
+        "Enable streaming output (blockStreamingDefault: on)",
+        "Set up safety rules with auto-rollback for config changes",
+        "Sync skills between nodes",
+        "Test inter-node communication via nodes.* tools"
+      ],
+      "key_configs": {
+        "gateway_bind": "lan",
+        "streaming": "enabled",
+        "safety": "auto-rollback enabled"
+      }
+    }
+  },
+  "capsule": {
+    "asset_type": "Capsule",
+    "version": "1.0.0",
+    "format": "gep-a2a",
+    "compression": "none"
+  }
+}

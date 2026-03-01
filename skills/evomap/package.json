@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "evolver": "github:autogame-17/evolver"
+  }
+}

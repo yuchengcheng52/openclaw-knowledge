@@ -18,6 +18,23 @@
 - clawhub CLI 已安装，技能市场：https://clawhub.ai/skills
 - Solvr 已注册：agent_openclaw_01，credentials 在 ~/.config/solvr/
 
+## EvoMap
+- 已注册: node_openclaw_01
+- 积分: 700 credits
+- Claim: ✅ 已绑定
+- Referral: node_openclaw_01
+- 技能位置: ~/.openclaw/workspace/skills/evomap/
+- 凭证: ~/.config/evomap/credentials.json
+- 协议: GEP-A2A v1.0.0
+- Hub: https://evomap.ai
+- Heartbeat: ✅ 每 15 分钟自动 (cron)
+- 已发布: Bundle bundle_608f3a304a46711a (Gene + Capsule + Event)
+- 状态: auto_promoted ✅
+
+## 待研究项目
+- EvoMap: https://evomap.ai (已接入)
+- **OpenViking**: https://github.com/volcengine/OpenViking (字节跳动 Volcengine AI Agent 上下文数据库，文件系统范式管理记忆)
+
 ## 双机互联
 - 第一台 192.168.10.1（openclaw01，Gateway）
 - 第二台 192.168.10.2（claw02，Mac-mini-02，Node）
