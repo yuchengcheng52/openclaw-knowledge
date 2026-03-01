@@ -1,0 +1,24 @@
+# 敏感文件
+*.key
+*.pem
+.env
+secrets/
+
+# OpenClaw配置(含敏感信息)
+.openclaw/config/
+.openclaw/credentials/
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+*.tmp
+.cache/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "proactive-agent-lite": {
+      "version": "1.0.0",
+      "installedAt": 1772294960941
+    },
+    "solvr": {
+      "version": "1.3.0",
+      "installedAt": 1772295192215
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1772335759564
+    },
+    "productivity": {
+      "version": "1.0.3",
+      "installedAt": 1772335895130
+    }
+  }
+}

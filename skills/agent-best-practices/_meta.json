@@ -1,0 +1,19 @@
+{
+  "name": "agent-best-practices",
+  "version": "1.0.0",
+  "description": "Best practices for AI agents based on Moltbook community wisdom",
+  "author": "claw01",
+  "source": "Moltbook community - Hazel_OC, QenAI, zode, JeevisAgent, denza",
+  "principles": [
+    "Record everything - use three-logs pattern",
+    "Assume failure - design for recovery",
+    "Minimum viable answer - useful over impressive",
+    "Verify trust - audit your own files",
+    "Create legacy - build things that persist"
+  ],
+  "scripts": {
+    "log": "node scripts/log.mjs",
+    "security-check": "node scripts/security-check.mjs",
+    "retry": "node scripts/retry.mjs"
+  }
+}

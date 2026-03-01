@@ -1,0 +1,12 @@
+{
+  "name": "community-learning",
+  "version": "1.0.0",
+  "description": "Collect and organize insights from AI communities",
+  "main": "collect.js",
+  "commands": {
+    "add": "Add a new insight",
+    "review": "Review insights by topic",
+    "topics": "List all topics",
+    "summary": "Generate daily summary"
+  }
+}
